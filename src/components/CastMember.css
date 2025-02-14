@@ -1,0 +1,39 @@
+.cast-member {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    width: calc(50% - 10px);
+  }
+  
+  .cast-member-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .cast-member-info {
+    flex: 1;
+  }
+  
+  .cast-member-name {
+    font-size: 1rem;
+    margin: 0 0 5px;
+  }
+  
+  .cast-member-character {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .cast-member {
+      width: 100%;
+    }
+  }
+  
+  

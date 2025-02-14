@@ -1,0 +1,44 @@
+.movie-card {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .movie-card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .movie-card-content {
+    padding: 1rem;
+  }
+  
+  .movie-card-title {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .movie-card-rating-txt {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .movie-card-rating {
+    color: rgb(255, 255, 255);
+    margin-right: 0.25rem;
+  }
+  
+  
